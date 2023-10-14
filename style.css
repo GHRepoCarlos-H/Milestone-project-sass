@@ -2,6 +2,7 @@
 body{
     background-image: url("./Assets/slot-machine-background.jpg");
     background-size: cover;
+    
 
     
 }
@@ -22,6 +23,9 @@ main{
     /*background-size: cover;*/
     /*background-color: rgba(255, 215, 0, .3);/*/
     background: linear-gradient(to bottom, rgb(7, 249, 67), rgb(0, 0, 0));
+    color:pink;
+    
+    
 }
 
 #result-card{
@@ -63,14 +67,19 @@ main{
     
 }
 #card-1, #card-2, #card-3{
-    margin-top: 5em;
+    margin-top: .5em;
     outline: 15px double black;
-    height: 20em;
-    width: 10em;
+    height: 300px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+
     
+}
+
+#text{
+    font-siz
 }
 
 /*Set up and decorate spin button*/
