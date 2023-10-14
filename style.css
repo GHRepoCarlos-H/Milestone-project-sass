@@ -1,0 +1,62 @@
+/*Style body*/
+body{
+    outline: 2px solid green;
+    background-image: url("./Assets/slot-machine-background.jpg");
+    background-size: cover;
+
+    
+}
+
+/*Set up main game screen*/
+main{
+    position: absolute;
+    inset: 15% 25% 25% 20%;
+    outline: 15px double lightgreen;
+    width: 50em;
+    height: 40em;
+    /*background-image: url("Assets/main-background.jpg"); /*Unsplash.com by Mackenzie Marco*/
+    /*background-size: cover;*/
+    /*background-color: rgba(255, 215, 0, .3);/*/
+    background: linear-gradient(to bottom, rgb(7, 249, 67), rgb(0, 0, 0));
+}
+
+p{
+    color: pink;
+}
+
+
+/*Set up and decorate 3 cards for slot machine inside main game screen*/
+section{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#card-1, #card-2, #card-3{
+    margin-top: 5em;
+    outline: 15px double black;
+    height: 20em;
+    width: 10em;
+}
+
+/*Set up and decorate spin button*/
+
+button{
+    position: relative;
+    top: 3em;
+    left:8em ;
+    font-size: xx-large;
+    height: 3em;
+    width: 9em;
+    background: linear-gradient(to bottom, rgb(12, 231, 67), rgb(1, 31, 1));
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
