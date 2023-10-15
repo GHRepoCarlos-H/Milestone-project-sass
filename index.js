@@ -13,11 +13,21 @@ function randomNumber(){
     cardThreeContainer.textContent = ranNum3;
 
     cardOneContainer.style.fontSize= "150px";
-    cardTwoContainer.style.fontSize= "150px"
-    cardThreeContainer.style.fontSize= "150px"
+    cardTwoContainer.style.fontSize= "150px";
+    cardThreeContainer.style.fontSize= "150px";
 
 }
 
 spin.addEventListener("click", randomNumber);
 
 randomNumber();
+
+const resultContainer = document.getElementById("result-card");
+
+if(cardOneContainer.textContent == cardTwoContainer.textContent && cardTwoContainer.textContent == cardThreeContainer.textContent){
+    resultContainer.textContent = ("You won the jackpot")
+} else{
+    resultContainer.textContent = ("Try again!")
+}
+
+console.log(resultContainer.textContent);
