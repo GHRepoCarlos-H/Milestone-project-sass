@@ -5,6 +5,9 @@ const resultContainer = document.getElementById("result-card");
 function winnerCheck(){
 if(cardOneDiv.textContent == cardTwoDiv.textContent && cardTwoDiv.textContent == cardThreeDiv.textContent){
     resultContainer.textContent = ("Jackpot")
+    const winnerPageURL = "winnerPage.html"
+    window.open(winnerPageURL, '_blank');
+    spin.disabled = true;
 } 
 else{
     resultContainer.textContent = ("Try again!")
