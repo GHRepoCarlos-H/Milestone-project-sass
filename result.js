@@ -1,6 +1,7 @@
 
 const resultContainer = document.getElementById("result-card");
 
+
 /*resultContainer.textContent = (cardOneDiv.textContent === cardTwoDiv.textContent && cardTwoDiv.textContent === cardThreeDiv.textContent) ? "You're a Jackpot Winner!!" : "Try Again!!";*/
 function winnerCheck(){
 if(cardOneDiv.textContent == cardTwoDiv.textContent && cardTwoDiv.textContent == cardThreeDiv.textContent){
@@ -13,6 +14,20 @@ else{
     resultContainer.textContent = ("Try again!")
 }
 
-console.log(resultContainer.textContent); 
+return resultContainer.textContent; 
 
 }
+
+//Close winning screen and reset the page. W3Schools for reference (Window close();)
+
+const gameReset = document.getElementById("reset-button");
+let winnerPageWindow;
+
+function resetScreen(){
+    if (winnerPageWindow) {
+        winnerPageWindow.close();
+        
+    }
+}
+
+gameReset.addEventListener("click", resetScreen);
