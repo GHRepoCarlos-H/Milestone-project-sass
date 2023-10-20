@@ -16,8 +16,11 @@ function randomNumber(){
     cardTwoDiv.style.fontSize= "150px";
     cardThreeDiv.style.fontSize= "150px";
 
+    winnerCheck();
+
 }
 
 spin.addEventListener("click", randomNumber);
 
 randomNumber();
+

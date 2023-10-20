@@ -1,7 +1,10 @@
 const total = document.getElementById("score-card");
 
-function newTotal(){
+
+
+
+/*function newTotal(){
     if(total == 100){
  
     }
-}
+}*/
