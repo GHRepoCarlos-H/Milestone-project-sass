@@ -14,8 +14,8 @@ h1{
 
 /*Set up main game screen*/
 main{
-    position: absolute;
-    inset: 15% 25% 25% 20%;
+    position: relative;
+    inset: 20% 25% 25% 20%;
     outline: 15px double lightgreen;
     width: 50em;
     height: 40em;
