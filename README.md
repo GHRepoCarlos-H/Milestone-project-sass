@@ -36,7 +36,7 @@ I'm building a slot machine, random numbers pulled me towards this task. I alway
 
    - Add a delay to outcome and insert/play a gif while we wait for the result
    - Display images instead of numbers
-   - Upgrade the 90's look to a modern CSS
+   - Upgrade the 90's look to a modern slot machine graphics. 
 
  ### Project Plannnig
 
