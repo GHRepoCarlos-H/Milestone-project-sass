@@ -14,6 +14,8 @@ if(cardOneDiv.textContent == cardTwoDiv.textContent && cardTwoDiv.textContent ==
     setTimeout(function() {
         winWindow.close();
     }, 6000);
+
+    currentScore += currentScore;
     spin.disabled = false;
 } 
 else{
