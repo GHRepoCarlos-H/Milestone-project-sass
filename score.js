@@ -2,14 +2,16 @@
 let currentScore = 100;
 
 
-spin.addEventListener("click", checkAvailableCredit);
+spin.addEventListener("click", function(){
+    winnerCheck();
+    checkAvailableCredit();
+
+});
 
 function checkAvailableCredit(){
     if(currentScore > 0) {
-        currentScore -= 1;
-        
+        currentScore -= 1; 
         updateCreditScreen();
-        winnerCheck();
  
     }else {
         const playAgainURL = "playAgain.html";

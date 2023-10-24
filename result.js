@@ -15,7 +15,8 @@ if(cardOneDiv.textContent == cardTwoDiv.textContent && cardTwoDiv.textContent ==
         winWindow.close();
     }, 6000);
 
-    currentScore += currentScore;
+    currentScore += 50;
+
     spin.disabled = false;
 } 
 else{
