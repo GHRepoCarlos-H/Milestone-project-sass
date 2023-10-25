@@ -1,4 +1,4 @@
-//score.js file
+
 let currentScore = 100;
 
 
@@ -32,5 +32,3 @@ function updateCreditScreen() {
 }
 
 updateCreditScreen(); 
-
-//end of score.js file 
