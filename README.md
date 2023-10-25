@@ -50,6 +50,6 @@ I'm building a slot machine, random numbers pulled me towards this task. I alway
 
 ### Contributor, Collaborators, & Sources
 
-  - Contributor: Carlos Hernandez, Brandon Martin.
-  - Collaborator: ChatGPT.
+  - Contributor: Carlos Hernandez.
+  - Collaborator: Brandon Martin, ChatGPT and YouTube video "Frontend Web Development Bootcamp course" by freedCodeCamp.org, time stamp 8:19.05. 
   - Sources: W3Schools, MDN.com. 
