@@ -1,3 +1,4 @@
+//index.js file
 const cardOneDiv = document.getElementById("card-1");
 const cardTwoDiv = document.getElementById("card-2");
 const cardThreeDiv = document.getElementById("card-3");
@@ -24,3 +25,4 @@ spin.addEventListener("click", randomNumber);
 
 randomNumber();
 
+//end of index.js file

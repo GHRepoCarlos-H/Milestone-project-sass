@@ -13,15 +13,17 @@ if(cardOneDiv.textContent == cardTwoDiv.textContent && cardTwoDiv.textContent ==
 
     setTimeout(function() {
         winWindow.close();
+        spin.disabled = false;
     }, 6000);
 
-    currentScore += 50;
-
-    spin.disabled = false;
 } 
 else{
     resultContainer.textContent = ("Try again!")
 }
 
+}
 
+function addCredits(){
+    currentScore *=2;
+    updateCreditScreen();
 }

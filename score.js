@@ -1,5 +1,5 @@
-
-let currentScore = 100;
+//score.js file
+let currentScore = 20;
 
 
 spin.addEventListener("click", function(){
@@ -9,7 +9,7 @@ spin.addEventListener("click", function(){
 });
 
 function checkAvailableCredit(){
-    if(currentScore > 0) {
+    if(currentScore > 1) {
         currentScore -= 1; 
         updateCreditScreen();
  
@@ -20,7 +20,7 @@ function checkAvailableCredit(){
         setTimeout (function() {
         newWindow.close();
         location.reload();
-         }, 6000);
+         }, 2000);
          
     }
     
@@ -32,3 +32,5 @@ function updateCreditScreen() {
 }
 
 updateCreditScreen(); 
+
+//end of score.js file 
