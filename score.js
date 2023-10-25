@@ -1,5 +1,5 @@
 //score.js file
-let currentScore = 20;
+let currentScore = 100;
 
 
 spin.addEventListener("click", function(){

@@ -16,6 +16,8 @@ if(cardOneDiv.textContent == cardTwoDiv.textContent && cardTwoDiv.textContent ==
         spin.disabled = false;
     }, 6000);
 
+    addCredits();
+
 } 
 else{
     resultContainer.textContent = ("Try again!")
