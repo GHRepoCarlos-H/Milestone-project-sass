@@ -20,9 +20,6 @@ main{
     outline: 15px double lightgreen;
     width: 50em;
     height: 40em;
-    /*background-image: url("Assets/main-background.jpg"); /*Unsplash.com by Mackenzie Marco*/
-    /*background-size: cover;*/
-    /*background-color: rgba(255, 215, 0, .3);/*/
     background: linear-gradient(to bottom, rgb(7, 249, 67), rgb(0, 0, 0));
     color:pink;
     
