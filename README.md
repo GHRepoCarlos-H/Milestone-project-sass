@@ -1,7 +1,7 @@
 # Milestone-project
 
 ## Deployment
-The webgame is deployed "TBD"
+The webgame is deployed at https://azvice.github.io/Milestone-project/
 
 ## Project Description
 I'm building a slot machine, random numbers pulled me towards this task. I always wondered if the slot machines outcomes at casinos are actually random, so I thought I build one to answer my question. 
