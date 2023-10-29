@@ -81,16 +81,18 @@ main{
 
 /*Set up and decorate spin button*/
 
-button{
+#btn1, #btn2, #btn3{
     position: relative;
     top: 3em;
     left:8em ;
     font-size: xx-large;
     height: 3em;
-    width: 9em;
+    width: 3em;
     background: linear-gradient(to bottom, rgb(12, 231, 67), rgb(1, 31, 1));
     border-radius: 40px;
 }
+
+
 
 
 

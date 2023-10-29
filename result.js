@@ -1,6 +1,6 @@
 
 const resultContainer = document.getElementById("result-card");
-resultContainer.textContent = ("Press SPIN button!!");
+resultContainer.textContent = ("PLACE YOUR BET ");
 
 
 function winnerCheck(){

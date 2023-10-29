@@ -1,5 +1,8 @@
 
 let currentScore = 100;
+let btn1 = 1;
+let btn2 = 5;
+let btn3 = 10; 
 
 
 spin.addEventListener("click", function(){
