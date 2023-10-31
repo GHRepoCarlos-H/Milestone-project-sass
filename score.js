@@ -1,8 +1,5 @@
 
 let currentScore = 100;
-let btn1 = 1;
-let btn2 = 5;
-let btn3 = 10; 
 
 
 spin.addEventListener("click", function(){
@@ -11,12 +8,21 @@ spin.addEventListener("click", function(){
 
 });
 
-function checkAvailableCredit(){
-    if(currentScore > 1) {
+const buttons = document.querySelectorAll(".button-class");
+
+buttons.forEach(button => {
+button.addEventListener("click", function() {
+    if(button.id === "btn1" && currentScore >= 2) {
         currentScore -= 1; 
-        updateCreditScreen();
+
  
-    }else {
+    }else if (button.id === "btn2" && currentScore >= 6) {
+        currentScore -= 5
+
+    }else if (button.id === "btn3" && currentScore >= 11) {
+        currentScore -= 10;
+
+    }else{
         const playAgainURL = "playAgain.html";
         const newWindow =  window.open(playAgainURL, '_blank')
 
@@ -27,11 +33,14 @@ function checkAvailableCredit(){
          
     }
     
-    return currentScore;
-}
+    updateCreditScreen();
+    });
+});
+
+
 
 function updateCreditScreen() {
     document.getElementById("score-card").textContent = "Credit: " + "$" + currentScore;
 }
 
-updateCreditScreen(); 
+updateCreditScreen();

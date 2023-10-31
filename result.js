@@ -15,8 +15,6 @@ function winnerCheck(){
             spin.disabled = false;
         }, 6000);
 
-        addCredits();
-
     } 
     else{
         resultContainer.textContent = ("Try again!")
