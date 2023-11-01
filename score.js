@@ -2,9 +2,41 @@
 let currentScore = 100;
 
 
-spin.addEventListener("click", function(){
+function addEventListener(button, callback){
+    button.addEventListener('click', function(){
+        randomNumber();
+        winnerCheck();
+        //checkAvailableCredit();
+        callback();
+    });
+}
+
+addEventListener(spin1, function(){
+    setBetAmount("btn1");
+    randomNumber();
     winnerCheck();
-    checkAvailableCredit();
+    updateCreditScreen();
+    //checkAvailableCredit();
+
+
+});
+
+addEventListener(spin2, function(){
+    setBetAmount("btn2");
+    randomNumber();
+    winnerCheck();
+    updateCreditScreen();
+    //checkAvailableCredit();
+
+
+});
+addEventListener(spin3, function(){
+    setBetAmount("btn3");
+    randomNumber();
+    winnerCheck();
+    updateCreditScreen();
+    //checkAvailableCredit();
+
 
 });
 
@@ -15,7 +47,6 @@ button.addEventListener("click", function() {
     if(button.id === "btn1" && currentScore >= 2) {
         currentScore -= 1; 
 
- 
     }else if (button.id === "btn2" && currentScore >= 6) {
         currentScore -= 5
 
