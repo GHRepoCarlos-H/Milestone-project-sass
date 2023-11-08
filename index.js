@@ -24,6 +24,14 @@ function randomNumber(){ //Math.random explained by YouTube video "Frontend Web 
     cardThreeDiv.style.fontSize= "150px";
 
 }
+<<<<<<< HEAD
+=======
+/*
+spin1.addEventListener("click", randomNumber);
+spin2.addEventListener("click", randomNumber);
+spin3.addEventListener("click", randomNumber);
+*/
+>>>>>>> 2370ec70eb4fdf12a2d215911068964f39a2f0a1
 
 randomNumber();
 
