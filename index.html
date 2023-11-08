@@ -15,10 +15,23 @@
             <div id="card-2"></div>
             <div id="card-3"></div>
         </section>
-        <button id="btn">SPIN!!</button>
+
+        <audio id="buttonClickSound" src="Assets/button-sound.wav"></audio>
+        <audio id="winnerX4Sound" src="Assets/X4-Winner.wav"></audio>
+        <audio id="jackpotSound" src="Assets/JackpotWinner.wav"></audio>
+        <audio id="winnerX6Sound" src="Assets/X6-Winner.wav"></audio>
+        <audio id="You-lose-sound" src="Assets/You-lose-sound.wav"></audio>
+
+        <section id="btn-card"> 
+        <button id="btn1" class="button-class">$1</button>
+        <button id="btn2" class="button-class">$5</button>
+        <button id="btn3" class="button-class">$10</button>
+        </section>
+
         <section class="result-class">
             <div id="result-card"></div>
         </section>
+
         <section class="score-class">
             <div id="score-card"></div>
         </section>
@@ -29,3 +42,18 @@
     <script src="score.js"></script>
 </body>
 </html>
+
+<!-- Features to add per instructions 
+
+-  Allow players to choose their original bet 
+-  Smaller wins $5 and $10
+-  Sound effects or animations
+-  Use images instead of numbers
+-  -->
+
+<!--Sound 
+button 2 from Freesound.com by Leszek_Szary = push bet button
+Coins.wav from Freesound.com by sparkle1 = X4 Winner 
+Jingle_win_00.wav from Freesound.com by LittleRobotSoundFactory = Jackpot winner
+"You Lose" - Evil from Freesound.com by Rocotilos = Play again screen
+--> 
