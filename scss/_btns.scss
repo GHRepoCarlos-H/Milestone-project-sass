@@ -1,0 +1,12 @@
+
+
+@mixin buttons {
+    position: relative;
+    margin-top: 50px;
+    left: 35% ;
+    font-size: xx-large;
+    height: 3em;
+    width: 3em;
+    background: linear-gradient(to bottom, rgb(12, 231, 67), rgb(1, 31, 1));
+    border-radius: 40px;
+}

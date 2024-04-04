@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+body h1 {
+  color: gold;
+  text-align: center;
+  font-size: 4em;
+}
+body h1:hover {
+  color: white;
+  font-size: 2em;
+  color: rgb(207, 109, 125);
+}
+body h1:hover::before {
+  content: "Will you win? ";
+  display: block;
+  font-size: 1em;
+}
+
+#main-screen {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: 15px double white;
+  width: 75%;
+  height: 70%;
+  max-width: 1100px;
+  max-height: 90%;
+  background: linear-gradient(to bottom, rgb(7, 249, 67), rgb(0, 0, 0));
+  color: rgb(207, 109, 125);
+}
+
+.card-class {
+  display: flex;
+  justify-content: space-around;
+}
+
+#card-1, #card-2, #card-3 {
+  margin-top: 0.5em;
+  outline: 15px double black;
+  height: 300px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-class {
+  position: relative;
+  outline: 5px double white;
+  height: 100px;
+  width: 175px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -1%;
+  left: 8%;
+}
+
+.score-class {
+  position: relative;
+  outline: 5px double white;
+  height: 100px;
+  width: 175px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -15%;
+  left: 75%;
+}
+
+#btn1, #btn2, #btn3 {
+  position: relative;
+  margin-top: 50px;
+  left: 35%;
+  font-size: xx-large;
+  height: 3em;
+  width: 3em;
+  background: linear-gradient(to bottom, rgb(12, 231, 67), rgb(1, 31, 1));
+  border-radius: 40px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,56 @@
+@import "variables";
+@import "mixin";
+@import "btns";
+
+body {
+    background-color: $fourth-color;
+
+    h1 {
+        color: $primary-color;
+        text-align: center;
+        font-size: map-get($font-sizes, Large);
+        
+        &:hover {
+            color: $third-color;
+            font-size: map-get($font-sizes, medium);
+            color: $fifth-color;
+            
+            &::before {
+                content: "Will you win? ";
+                display: block;
+                font-size: map-get($font-sizes, small);
+                
+            }
+        }
+    }
+}
+
+
+#main-screen{
+    @include main-screen;
+}
+
+.card-class{
+    @include card-position;
+}
+
+#card-1, #card-2, #card-3{
+    @include cards;
+
+}
+
+.result-class{
+    @include result-card;
+    top: -1%;
+    left: 8%;
+}
+
+.score-class{
+    @include result-card;
+    top: -15%;
+    left: 75%;
+}
+
+#btn1, #btn2, #btn3 {
+    @include buttons;
+}
