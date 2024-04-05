@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background: linear-gradient(to bottom, #000111 1%, #bfcc0e 10%, #110f05 10%);
 }
 body h1 {
   color: gold;
@@ -76,7 +76,7 @@ body h1:hover::before {
   position: relative;
   margin-top: 50px;
   left: 35%;
-  font-size: xx-large;
+  font-size: 2em;
   height: 3em;
   width: 3em;
   background: linear-gradient(to bottom, rgb(12, 231, 67), rgb(1, 31, 1));

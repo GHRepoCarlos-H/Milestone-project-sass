@@ -1,10 +1,14 @@
 
 
-@mixin buttons {
+@mixin buttons($font-size) {
+    @if not map-has-key($font-sizes, $font-size) {
+        @error "Invalid font size: #{$font-size}. Font size must be one of: #{map-keys($font-sizes)}.";
+    }
+
     position: relative;
     margin-top: 50px;
-    left: 35% ;
-    font-size: xx-large;
+    left: 35%;
+    font-size: map-get($font-sizes, $font-size);
     height: 3em;
     width: 3em;
     background: linear-gradient(to bottom, rgb(12, 231, 67), rgb(1, 31, 1));

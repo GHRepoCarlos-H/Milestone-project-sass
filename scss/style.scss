@@ -3,7 +3,7 @@
 @import "btns";
 
 body {
-    background-color: $fourth-color;
+    background: linear-gradient(to bottom, #000111 1%, #bfcc0e 10%, #110f05 10%);
 
     h1 {
         color: $primary-color;
@@ -52,5 +52,8 @@ body {
 }
 
 #btn1, #btn2, #btn3 {
-    @include buttons;
+    @include buttons(medium);
 }
+
+
+
